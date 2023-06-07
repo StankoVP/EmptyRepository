@@ -22,9 +22,9 @@ function init() {
     }
 
     function allTheFibonacciNumbers(n1, n2) {
-        var result = [];
-        var a = 0;
-        var b = 1;
+        const result = [];
+        let a = 0;
+        let b = 1;
         if (typeof n1 == "number" && typeof n2 == "number") {
             if (n2 >= n1) {
                 while (true) {
